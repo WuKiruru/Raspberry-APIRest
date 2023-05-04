@@ -1,0 +1,90 @@
+<div class="col-12">
+  <div class="col-12" id="serviceTitle">
+    <h1>Form Information Leads</h1>
+  </div>
+</div>
+
+<div class="col-12 d-flex justify-content-center" id="BusForm">
+  <label id="labelBus">Search Users/Orders</label>
+  <input class="form-control me-2" id="inputForm1" type="text" (keyup)="applyFilter($event)">
+</div>
+
+<div class="col-12 d-flex justify-content-center">
+  <div class="col-2"></div>
+  <div class="col-8">
+    <div class="col-12 d-flex justify-content-center">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Order</th>
+            <th scope="col">Subject</th>
+            <th scope="col">Description</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <ng-container *ngFor="let user of user">
+
+            <tr>
+              <td id="pruebaX2">{{user.id}}</td>
+              <td id="pruebaX2">{{user.nombre}}</td>
+              <td id="pruebaX2">{{user.email}}</td>
+              <td id="pruebaX2">{{user.numorder}}</td>
+              <td id="pruebaX2">{{user.subject}}</td>
+              <td id="pruebaX2">{{user.description}}</td>
+              <td>
+                <div *ngIf="visibility!=false" class="col-12 justify-content-center">
+                  <input type="button" id="contactSubmit3" value="Delete" (click)="deleteUser(user.id)">
+                  <input type="button" id="contactSubmit2" value="Modify" (click)="showDelete()">
+                </div>
+                <div *ngIf="visibility!=true" class="col-12 justify-content-center">
+                  <input type="button" id="contactSubmit3" value="Delete" (click)="deleteUser(user.id)">
+                  <input type="button" id="contactSubmit2" value="Close Tab" (click)="showDelete()">
+                </div>
+              </td>
+
+              <div *ngIf="visibility!=true" class="col-12 justify-content-center">
+
+                <form id="formUpdate" [formGroup]="FormTwo" (ngSubmit)="updateUser(user.id, FormTwo.value)">
+                  <label id="labelType">Your Name</label>
+                  <div id="divsForm">
+                    <input class="sizeInput4" type="text" name="nombre" formControlName="nombre"
+                      [class.badInput]="nombre.invalid && nombre.dirty == true" [class.goodInput]="nombre.valid"
+                      required>
+                  </div>
+                  <label id="labelType">Email</label>
+                  <div id="divsForm">
+                    <input class="sizeInput4" type="email" name="email" formControlName="email"
+                      [class.badInput]="email.invalid && email.dirty == true" [class.goodInput]="email.valid" required>
+                  </div>
+                  <button id="contactSubmit2" (click)="updateUser(user.id, FormTwo.value)">Send Data</button>
+                </form>
+              </div>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="col-2">
+    <div class="col-12 d-flex justify-content-center">
+      <img id="imgService" src="../assets/resources/animegirl/animegirl3.png" width="1000" height="1000">
+    </div>
+
+  </div>
+</div>
+<!---------------------------------------------------------->
+<footer>
+  <div id="foottext" class="col-12 d-flex justify-content-center">
+    <p>Follow us on our Social media</p>
+  </div>
+  <div id="foot" class="col-12 d-flex justify-content-center">
+    <img src="../assets/resources/facebook.png" id="mediaicon" width="24" height="24">
+    <img src="../assets/resources/twitter.png" id="mediaicon" width="24" height="24">
+    <img src="../assets/resources/weibo.png" id="mediaicon" width="24" height="24">
+    <img src="../assets/resources/instagram.png" id="mediaicon" width="24" height="24">
+  </div>
+</footer>

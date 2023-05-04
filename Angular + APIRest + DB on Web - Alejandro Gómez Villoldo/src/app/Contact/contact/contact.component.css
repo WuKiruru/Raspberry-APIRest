@@ -1,0 +1,696 @@
+/*CSS MADE BY ALEJANDRO GÓMEZ VILLOLDO - MONLAU COLLEGE - M9*/
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.header {
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 15px;
+}
+
+.wrapper {
+    position: relative;
+    padding-top: 80px;
+}
+
+.navbar {
+    padding-top: 0ch !important;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    border-top: 0ch;
+    border-left: 0ch;
+    border-right: 0ch;
+    margin-bottom: 8px;
+    padding-bottom: 0px !important;
+    background: #f5f5f5 !important;
+}
+
+.carousel-inner {
+    width: 58.5% !important;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+ 
+.notice {
+    background: #f7f7f7;
+    padding: 7px 12px;
+    font-size: .875rem;
+    color: gray;
+    margin-top: 5px;
+}
+
+#firstNotice {
+    margin-bottom: 0px;
+}
+
+.ranking {
+    padding-right: 10px;
+}
+
+#imagecrown {
+    padding-bottom: 3px;
+}
+
+#firstNotice {
+    margin-top: 16px;
+}
+
+#titleWords {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: gray;
+}
+
+#titleWords2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: gray;
+    margin-top: -25px;
+}
+
+#titleWords3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: gray;
+    margin-left: 12px;
+}
+
+#exampleModalCenter {
+    display: block !important;
+}
+
+#more {
+    color: orangered;
+}
+
+.active {
+    background-color: #f38029;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+#bootInput {
+    color: #fff;
+    background-color: #f38029;
+    border-color: #f38029;
+}
+
+#bootInput:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#more:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+#figura1::after {
+    content: "1";
+    background:gold;
+    color: #f7f7f7;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#figura2::after {
+    content: "2";
+    background:silver;
+    color: #f7f7f7;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#figura3::after {
+    content: "3";
+    background:peru;
+    color: #f7f7f7;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#figura4::before {
+    content: "4";
+    background: #63aecf;
+    color: #f7f7f7;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#figura5::before {
+    content: "5";
+    background: #63aecf;
+    color: #f7f7f7;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+#figura6::before {
+    content: "6";
+    background: #63aecf;
+    color: #f7f7f7;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.itemtitle {
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.shoptitle {
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.pricetitle {
+    color: #f1823d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.pricetitle:after {
+    content: " EUR";
+    color: #f1823d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#statusfigure {
+    border: 1px solid grey;
+    border-left: 2px solid #f38029;
+    width: 52%;
+    margin-top: 5px;
+    color: grey;
+    font-size: 13px;
+}
+
+#statusfigure2 {
+    border: 1px solid grey;
+    border-left: 2px solid #ed0080;
+    width: 44%;
+    margin-top: 5px;
+    color: grey;
+    font-size: 13px;
+}
+
+#statusfigure3 {
+    border: 1px solid grey;
+    border-left: 2px solid grey;
+    width: 38%;
+    margin-top: 5px;
+    color: grey;
+    font-size: 13px;
+}
+
+#statusfigure4 {
+    border: 1px solid grey;
+    border-left: 2px solid grey;
+    width: 73%;
+    margin-top: 5px;
+    color: grey;
+    font-size: 13px;
+}
+
+#figurinehtml {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#titlenotice {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    font-size: 18px;
+    margin: 0;
+}
+
+#titlenotice::before {
+    content: "🡪";
+}
+
+#datenotice {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    opacity: .5;
+    font-size: 13px;
+}
+
+#datenotice::before {
+    content: "🡪";
+    color: #fff;
+}
+
+#foot {
+    background: #f5f5f5;
+    padding-bottom: 15px;
+}
+
+#foottext {
+    background: #f5f5f5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+#mediaicon {
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.imgSide {
+    margin-bottom: 17px;
+    margin-left: 13px;
+}
+
+.imgSide:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#twitterBanner {
+    background-color: #00acee;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10%;
+    color: #fff;
+    margin-left: 8px;
+}
+
+#facebookBanner {
+    background-color: #3b5998;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10%;
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 17px;
+}
+
+#weiboBanner {
+    background-color: orange;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding-top: 10%;
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 17px;
+}
+
+#mangaBanner {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#mangaImg {
+    margin-left: 15px;
+}
+
+#mangaImg2 {
+    margin-left: 4.5px;
+}
+
+#facebookBanner:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#twitterBanner:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#weiboBanner:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#titleManga {
+    text-align: center;
+    width: 160px;
+}
+
+#serviceImg {
+    margin-left: 0ch;
+    margin-right: 0ch;
+}
+
+#contactButton {
+    background-color: orangered;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 3cm;
+}
+
+#contactButton p {
+    padding-top: 4%;
+    color: #fff;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#contactButton:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#serviceTitle {
+    text-align: center;
+    color: orangered;
+    
+}
+
+#serviceExplain {
+    text-align: center;
+    color: gray;
+}
+
+#serviceOption {
+    color: orangered;
+}
+
+.serviceText {
+    padding-left: 10px;
+    padding-top: 75px;
+}
+
+#service {
+    width: 75%;
+}
+
+#buttonMore {
+    color: orangered;
+    transition: 0.3s;
+}
+
+#buttonMore::after {
+    content: "🡲";
+}
+
+#buttonMore:hover {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#serviceTextEnd {
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 75px;
+}
+
+#serviceEnd {
+    margin-left: 30%;
+    text-align: end;
+}
+
+#fixedHelp {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    padding: 14px;
+}
+
+#buttonHelp {
+    background-color: #f1823d !important;
+    color: #552D15 !important;
+    fill: #552D15 !important;    
+    padding: 15px;
+    border-radius: 999rem;
+    letter-spacing: 0.6;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+.search {
+    position: relative;
+}
+
+#topSide {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: -10px;
+}
+
+#helpSearch {
+    border: 1px solid #fff;
+    opacity: 0.8;
+    border-radius: 30px;
+    height: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 100%;
+    color: gray;
+    transition: 0.3s;
+}
+
+#helpSearch::placeholder {
+    color: gray;
+}
+
+#cuad1, #cuad2, #cuad3{
+    background-color: #fff;
+    border: 1px solid #f1823d;
+    color: #f1823d;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#cuad4 {
+    background-color: #fff;
+    border: 1px solid #f1823d;
+    color: #f1823d;
+    height: 70px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px; 
+    width: 75%;
+    margin-top: 25px;
+}
+
+#cuad1:hover, #cuad2:hover, #cuad3:hover, #cuad4:hover {
+    color: #fff;
+    background-color: #f1823d;
+}
+
+#cuad1 {
+    margin-right: 10px;
+}
+
+#cuad2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#cuad3 {
+    margin-left: 10px;
+}
+
+#sectionHelpPr {
+    margin-top: 4%;
+}
+
+#buttonsHelpSec {
+    margin-top: 20px;
+}
+
+#helpPromoteddiv {
+    margin-top: 30px;
+}
+
+#helpPromoted {
+    color: gray;
+    font-size: 20px;
+}
+
+#newsSec {
+    margin-right: 35px;
+}
+
+#newp:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#mostRead {
+    margin-bottom: 30px;
+}
+
+#mostRead2 {
+    margin-top: 30px;
+}
+
+#titleFormContact {
+    font-size: 30px;
+    z-index: 1;
+}
+
+#labelType, #labelType2 {
+    font-size: 13px;
+}
+
+#labelType::after {
+    content: "*";
+    color: red;
+}
+
+
+
+#divsForm, #attachForm {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#labelExplain {
+    font-size: 12px;
+    color: gray;
+}
+
+#attachForm {
+    border: 1px solid grey;
+    opacity: 0.6;
+    font-size: 12px;
+    text-align: center;
+}
+
+#attachFileForm {
+    opacity: 0;
+}
+
+#attachForm span {
+    color: gray;
+    display: inline-block;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.sizeInput, .sizeInput2 {
+    outline: none;
+    border:1px solid grey;
+    opacity: 0.6;
+    border-radius: 4px;
+}
+
+.sizeInput {
+    width: 550px;
+    height: 35px;
+}
+
+.sizeInput2 {
+    width: 550px;
+    height: 65px;
+}
+
+.sizeInput3 {
+    width: 480px;
+    cursor: pointer;
+}
+
+.goodInput {
+    outline: none;
+    border: 1px solid green;
+    opacity: 1;
+    border-radius: 4px;
+    width: 550px;
+    height: 35px;
+}
+
+.badInput {
+    outline: none;
+    border: 1px solid red;
+    opacity: 1;
+    border-radius: 4px;
+    width: 550px;
+    height: 35px;
+}
+
+.sizeInput:focus, .sizeInput2:focus, .goodInput:focus, .badInput:focus  {
+    background-color: rgba(241,129,59,0.5);
+}
+
+#contactSubmit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #f1823d;
+    border-color: #f1823d;
+    border-radius: 5px;
+    width: 30%;
+    height: 40px;
+}
+
+#contactSubmit2 {
+    margin-bottom: 20px;
+    color: white;
+    background-color: green;
+    border-color: rgb(7, 77, 7);
+    border-radius: 5px;
+    width: 30%;
+}
+
+#contactSubmit3 {
+    margin-bottom: 20px;
+    color: white;
+    background-color: red;
+    border-color: rgb(241, 84, 84);
+    border-radius: 5px;
+    width: 30%;
+}
+
+#imgContact {
+    margin-top: 21px;
+}
+
+#imgService {
+    margin-top: 160px;
+    margin-left: 15px;
+    z-index: -1;
+}
+
+#imgService2 {
+    margin-left: 70px;
+    margin-top: 730px;
+    z-index: -1;
+}
+
+#animePortrait {
+    margin-left: 6px;
+}
+
+#imagecrownManga {
+    padding-bottom: 3px;
+    margin-left: 6px;
+}
+
+.itemtitleManga  {
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 6px;
+}

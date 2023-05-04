@@ -1,0 +1,418 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div id="fixedHelp">
+            <a href="help.html">
+                <div>
+                    <button id="buttonHelp">
+                        GET HELP
+                    </button>
+                </div>
+            </a>
+        </div>
+        <!--SECCIÓN NAV / SEARCHBAR-->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="header wrapper col-2" style="background-image: url('../assets/resources/sections/headimg.png')"></div>
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="figurines.html">Figurines</a></li>
+                                <li><a class="dropdown-item active" href="mangas.html">Manga</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Hentai *CENSORED AREA*</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="help.html">Help</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" id="bootInput" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--SECCIÓN CAROUSEL-->
+    <div class="col-12 d-flex justify-content-center">
+        <div class="col-2 d-flex justify-content-end">
+            <div class="col-12 d-flex justify-content-end">
+                <div class="col-12">
+                    <div class="col-12" id="twitterBanner">
+                        <img src="../assets/resources/icon_twitter.png" width="30" height="26">
+                        <p>Follow us on Twitter</p>
+                    </div>
+                    <div class="col-12" id="facebookBanner">
+                        <img src="../assets/resources/icon_facebook.png" width="15" height="26">
+                        <p>Follow us on Facebook</p>
+                    </div>
+                    <div class="col-12" id="weiboBanner">
+                        <img src="../assets/resources/weibo.png" width="30" height="26">
+                        <p>Follow us on Weibo</p>
+                    </div>
+                    <div class="col-12" id="mangaBanner">
+                        <div class="col-12" id="titleWords3">
+                            <p>New Figurines</p>
+                        </div>
+                        <img src="../assets/resources/figurines/figure17.jpg" id="mangaImg2" width="150" height="150">
+                        <p id="titleManga">Bungo Stray Figurine</p>
+                        <img src="../assets/resources/figurines/figure15.jpg" id="mangaImg2" width="150" height="150">
+                        <p id="titleManga">Tigamanu</p>
+                        <img src="../assets/resources/figurines/figure9.jpg" id="mangaImg2" width="150" height="150">
+                        <p id="titleManga">Roxy Figurine</p>
+                        <img src="../assets/resources/figurines/figure14.jpg" id="mangaImg2" width="150" height="150">
+                        <p id="titleManga">Castlevania</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-8">
+            <!--SECCIÓN FIGURAS RANKING-->
+            <div class="col-12 d-flex justify-content-center">
+                <div class="col-12">
+                    <div class="col-12 d-flex" id="titleWords">
+                        <p>MANGAS RANKING</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <div class="col-12">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="col-2 ranking">
+                            <div class="col-12">
+                                <div class="col-12" id="figura1">
+                                    <img id="imagecrownManga" src="../assets/resources/icon_rank_gold.png" width="20" height="16">
+                                </div>
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga10.jpg" id="animePortrait" width="131" height="188">
+                                </div>
+                                <div class="col-12 itemtitleManga">Chainsaw Man</div>
+                            </div>
+                        </div>
+                        <div class="col-2 ranking">
+                            <div class="col-12">
+                                <div class="col-12" id="figura2">
+                                    <img id="imagecrownManga" src="../assets/resources/icon_rank_silver.png" width="20"
+                                        height="16">
+                                </div>
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga11.jpg" id="animePortrait" width="131" height="188">
+                                </div>
+                                <div class="col-12 itemtitleManga">One Punch-Man</div>
+                            </div>
+                        </div>
+                        <div class="col-2 ranking">
+                            <div class="col-12">
+                                <div class="col-12" id="figura3">
+                                    <img id="imagecrownManga" src="../assets/resources/icon_rank_bronze.png" width="20"
+                                        height="16">
+                                </div>
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga12.jpg" id="animePortrait" width="131" height="188">
+                                </div>
+                                <div class="col-12 itemtitleManga">Osananajimi</div>
+                            </div>
+                        </div>
+                        <div class="col-2 ranking">
+                            <div class="col-12">
+                                <div class="col-12" id="figura4"></div>
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga13.jpg" width="131" height="188">
+                                </div>
+                                <div class="col-12 itemtitleManga">Daremo Katenai</div>
+                            </div>
+                        </div>
+                        <div class="col-2 ranking">
+                            <div class="col-12">
+                                <div class="col-12" id="figura5"></div>
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga14.jpg" width="131" height="188">
+                                </div>
+                                <div class="col-12 itemtitleManga">Fuguushoku</div>
+                            </div>
+                        </div>
+                        <div class="col-2 ranking">
+                            <div class="col-12">
+                                <div class="col-12" id="figura6"></div>
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga15.jpg" width="131" height="188">
+                                </div>
+                                <div class="col-12 itemtitleManga">Goblin Slasher</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+            <br>
+            <!------------------------------->
+            <div class="col-12 d-flex justify-content-center">
+                <div class="col-12">
+                    <div class="col-12 d-flex" id="titleWords2">
+                        <p>NEW ADDED</p>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------->
+            <div class="col-12 d-flex justify-content-center">
+                <div class="col-12">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga16.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure">&nbsp;PRE-ORDER</div>
+                                <div class="col-12 itemtitle">Debby za #1</div>
+                                <div class="col-12 shoptitle">Comics+</div>
+                                <div class="col-12 pricetitle">9,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga17.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure4">&nbsp;ORDERS-CLOSED</div>
+                                <div class="col-12 itemtitle">Shinmai #5</div>
+                                <div class="col-12 shoptitle">Kabukai</div>
+                                <div class="col-12 pricetitle">9,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga18.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure2">&nbsp;IN-STOCK</div>
+                                <div class="col-12 itemtitle">Hitoribocchi #3</div>
+                                <div class="col-12 shoptitle">StormRazor</div>
+                                <div class="col-12 pricetitle">9,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga19.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure2">&nbsp;IN-STOCK</div>
+                                <div class="col-12 itemtitle">Inuyasha #1</div>
+                                <div class="col-12 shoptitle">SS</div>
+                                <div class="col-12 pricetitle">8,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga20.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure4">&nbsp;ORDERS-CLOSED</div>
+                                <div class="col-12 itemtitle">Sorademono #1</div>
+                                <div class="col-12 shoptitle">Origami</div>
+                                <div class="col-12 pricetitle">9,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga7.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure">&nbsp;PRE-ORDER</div>
+                                <div class="col-12 itemtitle">カナン様はあ #19</div>
+                                <div class="col-12 shoptitle">Comics+</div>
+                                <div class="col-12 pricetitle">11,50</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="col-12 d-flex justify-content-center" id="figurinehtml">
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga21.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure4">&nbsp;ORDERS-CLOSED</div>
+                                <div class="col-12 itemtitle">Hazure Skill #1</div>
+                                <div class="col-12 shoptitle">Futubasha</div>
+                                <div class="col-12 pricetitle">9,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga22.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure4">&nbsp;ORDERS-CLOSED</div>
+                                <div class="col-12 itemtitle">TEIHEN #4</div>
+                                <div class="col-12 shoptitle">Shoten</div>
+                                <div class="col-12 pricetitle">7,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga23.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure4">&nbsp;ORDERS-CLOSED</div>
+                                <div class="col-12 itemtitle">Sabitsuita #2</div>
+                                <div class="col-12 shoptitle">Kōdansha</div>
+                                <div class="col-12 pricetitle">9,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga24.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure">&nbsp;PRE-ORDER</div>
+                                <div class="col-12 itemtitle">Kimi no koto #1</div>
+                                <div class="col-12 shoptitle">Shōgakukan</div>
+                                <div class="col-12 pricetitle">8,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga25.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure4">&nbsp;ORDERS-CLOSED</div>
+                                <div class="col-12 itemtitle">ICHIOKU-NEN #1</div>
+                                <div class="col-12 shoptitle">Shūeisha</div>
+                                <div class="col-12 pricetitle">9,50</div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="col-12" id="animePortrait">
+                                <div class="col-12">
+                                    <img src="../assets/resources/mangas/manga26.jpg" width="131" height="188">
+                                </div>
+                                <div id="statusfigure2">&nbsp;IN-STOCK</div>
+                                <div class="col-12 itemtitle">Baki Dou #1</div>
+                                <div class="col-12 shoptitle">Ivrea</div>
+                                <div class="col-12 pricetitle">10,50</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---->
+                    <hr>
+                    <div class="col-12 d-flex justify-content-center" id="mostRead2">
+                        <div class="col-4">
+                            <div id="newsSec">
+                                <div class="col-12">
+                                    <p id="newp">Packets types</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">Can I split my shipment?</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">Can I buy a product for a third?</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">Shipment Info</p>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div id="newsSec">
+                                <div class="col-12">
+                                    <p id="newp">How many products can I buy?</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">Payment methods available?</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">Flare rates</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">Do you ease invoice?</p>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div id="newsSec">
+                                <div class="col-12">
+                                    <p id="newp">COVID Measures</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">Free days on Holidays</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">How products are treathed</p>
+                                    <hr>
+                                </div>
+                                <div class="col-12">
+                                    <p id="newp">It is posible to buy presents?</p>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------->
+        </div>
+        <div class="col-2 d-flex justify-content-end">
+            <div class="col-12">
+                <img src="../assets/resources/banners/banner25.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner24.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner23.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner22.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner21.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner20.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner19.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner18.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner17.jpg" class="imgSide" width="200" height="100">
+                <img src="../assets/resources/banners/banner16.jpg" class="imgSide" width="200" height="100">
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------->
+    <footer>
+        <div id="foottext" class="col-12 d-flex justify-content-center">
+            <p>Follow us on our Social media</p>
+        </div>
+        <div id="foot" class="col-12 d-flex justify-content-center">
+            <img src="../assets/resources/facebook.png" id="mediaicon" width="24" height="24">
+            <img src="../assets/resources/twitter.png" id="mediaicon" width="24" height="24">
+            <img src="../assets/resources/weibo.png" id="mediaicon" width="24" height="24">
+            <img src="../assets/resources/instagram.png" id="mediaicon" width="24" height="24">
+        </div>
+    </footer>
+</body>
